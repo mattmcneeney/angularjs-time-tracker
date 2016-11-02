@@ -6,9 +6,9 @@ The durations that are tracked are pre-defined.
 * [Google Analytics](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
 
 ## Usage
-Include the directive in your app, and just add the `time-tracker` attribute to any element on the page.
+Include the directive in your app, and simply add the time tracker element to the HTML of any page you want to track:
 ```
-<div time-tracker></div>
+<time-tracker></time-tracker>
 ```
 
 ## Events

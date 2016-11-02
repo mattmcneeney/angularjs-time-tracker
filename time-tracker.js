@@ -1,7 +1,7 @@
 angular.module('yourApp', [])
 .directive('timeTracker', [ '$timeout', function($timeout) {
    return {
-      restrict: 'A',
+      restrict: 'E',
       link: function(scope, element, attrs, ctrl) {
 
          // The durations (in seconds) that we want to track
