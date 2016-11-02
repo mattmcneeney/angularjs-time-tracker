@@ -7,7 +7,7 @@ The durations that are tracked are pre-defined.
 
 ## Usage
 Include the directive in your app, and simply add the time tracker element to the HTML of any page you want to track:
-```
+```HTML
 <time-tracker></time-tracker>
 ```
 
