@@ -9,7 +9,7 @@ angular.module('yourApp', [])
 
          // Setup the Google Analytics tracking calls
          scope.trackDuration = function(secondsElapsed) {
-            ga('send', 'event', 'Time Tracker', 'Seconds elapsed', duration, { 'nonInteraction': 1 });
+            ga('send', 'event', 'Time Tracker', 'Seconds elapsed', secondsElapsed, { 'nonInteraction': 1 });
          };
 
          // Setup the tracking calls
