@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>AngularJS Time Tracker by mattmcneeney</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>AngularJS Time Tracker</h1>
+        <p>Easily track how long users are staying on your web pages</p>
+
+        <p class="view"><a href="https://github.com/mattmcneeney/angularjs-time-tracker">View the Project on GitHub <small>mattmcneeney/angularjs-time-tracker</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/mattmcneeney/angularjs-time-tracker/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/mattmcneeney/angularjs-time-tracker/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/mattmcneeney/angularjs-time-tracker">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="angularjs-time-tracking-directive" class="anchor" href="#angularjs-time-tracking-directive" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>AngularJS Time Tracking Directive</h1>
+
+<p>Easily track how long users spend on your web pages with this simple directive.
+The durations that are tracked are pre-defined.</p>
+
+<h2>
+<a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Requirements</h2>
+
+<ul>
+<li><a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/">Google Analytics</a></li>
+</ul>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>Include the directive in your app, and just add the <code>time-tracker</code> attribute to any element on the page.</p>
+
+<pre><code>&lt;div time-tracker&gt;&lt;/div&gt;
+</code></pre>
+
+<h2>
+<a id="events" class="anchor" href="#events" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Events</h2>
+
+<p>Events will be logged in Google Analytics as follows:</p>
+
+<ul>
+<li>
+<em>Category</em>: <code>Time Tracker</code>
+</li>
+<li>
+<em>Event Action</em>: <code>Track</code>
+</li>
+<li>
+<em>Event Label</em>: <code>Seconds elapsed</code>
+</li>
+<li>
+<em>Event Value</em>: <code>&lt;number of seconds spent on page&gt;</code>
+</li>
+</ul>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/mattmcneeney">mattmcneeney</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>

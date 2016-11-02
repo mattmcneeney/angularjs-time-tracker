@@ -1,0 +1,6 @@
+{
+  "name": "AngularJS Time Tracker",
+  "tagline": "Easily track how long users are staying on your web pages",
+  "body": "# AngularJS Time Tracking Directive\r\nEasily track how long users spend on your web pages with this simple directive.\r\nThe durations that are tracked are pre-defined.\r\n\r\n## Requirements\r\n* [Google Analytics](https://developers.google.com/analytics/devguides/collection/analyticsjs/)\r\n\r\n## Usage\r\nInclude the directive in your app, and just add the `time-tracker` attribute to any element on the page.\r\n```\r\n<div time-tracker></div>\r\n```\r\n\r\n## Events\r\nEvents will be logged in Google Analytics as follows:\r\n* *Category*: `Time Tracker`\r\n* *Event Action*: `Track`\r\n* *Event Label*: `Seconds elapsed`\r\n* *Event Value*: `<number of seconds spent on page>`\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
