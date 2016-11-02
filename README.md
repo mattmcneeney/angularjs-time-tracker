@@ -14,6 +14,5 @@ Include the directive in your app, and simply add the time tracker element to th
 ## Events
 Events will be logged in Google Analytics as follows:
 * *Category*: `Time Tracker`
-* *Event Action*: `Track`
-* *Event Label*: `Seconds elapsed`
-* *Event Value*: `<number of seconds spent on page>`
+* *Event Action*: `Seconds elapsed`
+* *Event Label*: `<number of seconds spent on page>`
